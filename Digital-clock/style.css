@@ -4,7 +4,22 @@
     padding: 0;
 }
 .container{
-    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
     border: 2px solid black;
     height: 50rem;
+   
+}
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+    font-size: 200px;
+    color: rgb(12, 12, 12);
+    text-shadow:0px 0px 10px #2a08c0;
+    
 }
